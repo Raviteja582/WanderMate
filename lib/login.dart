@@ -108,12 +108,11 @@ class _MyLoginState extends State<MyLogin> {
                   ElevatedButton(
                     onPressed: () async {
                       try {
-                        debugPrint(
-                            'user: ${userTextController.text} and ${passwordTextController.text}');
                         UserCredential userCredential = await FirebaseAuth
                             .instance
                             .signInWithEmailAndPassword(
-                                email: userTextController.text, password: passwordTextController.text);
+                                email: userTextController.text,
+                                password: passwordTextController.text);
                         // ignore: use_build_context_synchronously
                         Navigator.pushNamed(context, 'home');
                       } on FirebaseAuthException catch (e) {

@@ -16,7 +16,6 @@ class ChatPage extends StatelessWidget {
     if (_messageController.text.isNotEmpty) {
       String? username =
           _auth.currentUser?.email; // Replace with display name if available
-      debugPrint('Email: $username');
       await _firestore
           .collection('trip-chats')
           .doc(hikeId)

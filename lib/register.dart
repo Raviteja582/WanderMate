@@ -6,8 +6,8 @@ class MyRegister extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    String email = '';
-    String pass = '';
+    TextEditingController email = TextEditingController();
+    TextEditingController password = TextEditingController();
     return Container(
       decoration: const BoxDecoration(
           image: DecorationImage(
@@ -43,7 +43,7 @@ class MyRegister extends StatelessWidget {
                     height: 30,
                   ),
                   TextField(
-                    onChanged: ((value) => email = value),
+                    controller: email,
                     decoration: InputDecoration(
                       fillColor: Colors.grey,
                       filled: true,
@@ -56,7 +56,7 @@ class MyRegister extends StatelessWidget {
                     height: 30,
                   ),
                   TextField(
-                    onChanged: ((value) => pass = value),
+                    controller: password,
                     obscureText: true,
                     decoration: InputDecoration(
                       fillColor: Colors.grey,
@@ -76,9 +76,9 @@ class MyRegister extends StatelessWidget {
                         UserCredential userCredential = await FirebaseAuth
                             .instance
                             .createUserWithEmailAndPassword(
-                                email: email, password: pass);
+                                email: email.text, password: password.text);
                         // ignore: use_build_context_synchronously
-                        debugPrint('userCredentials: $userCredential');
+                        // debugPrint('userCredentials: $userCredential');
                         // ignore: use_build_context_synchronously
                         Navigator.pushNamed(context, 'login');
                       } on FirebaseAuthException catch (e) {
