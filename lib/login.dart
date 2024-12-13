@@ -20,7 +20,6 @@ class _MyLoginState extends State<MyLogin> {
     FirebaseApp firebaseApp = await Firebase.initializeApp();
     return firebaseApp;
   }
-  //final FirebaseAuth _auth = FirebaseAuth.instance;
 
   // Function to handle sign in
   // ignore: unused_element
@@ -56,6 +55,7 @@ class _MyLoginState extends State<MyLogin> {
   Widget build(BuildContext context) {
     String email = '';
     String pass = '';
+
     return Container(
       decoration: const BoxDecoration(
           image: DecorationImage(

@@ -1,13 +1,19 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
-class MyRegister extends StatelessWidget {
+class MyRegister extends StatefulWidget {
   const MyRegister({super.key});
 
   @override
+  State<MyRegister> createState() => _MyRegisterState();
+}
+
+class _MyRegisterState extends State<MyRegister> {
+  final TextEditingController email = TextEditingController();
+  final TextEditingController password = TextEditingController();
+
+  @override
   Widget build(BuildContext context) {
-    TextEditingController email = TextEditingController();
-    TextEditingController password = TextEditingController();
     return Container(
       decoration: const BoxDecoration(
           image: DecorationImage(

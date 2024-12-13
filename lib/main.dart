@@ -15,7 +15,7 @@ void main() async {
     debugShowCheckedModeBanner: false,
     routes: {
       'login': (context) => const MyLogin(),
-      'register': (context) => const MyRegister(),
+      'register': (context) => MyRegister(),
       'home': (context) => const MyHome(),
     },
   ));
