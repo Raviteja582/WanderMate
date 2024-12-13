@@ -76,4 +76,4 @@ This project is built using Flutter. To get started with development, refer to t
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/wandermate.git
+   git clone https://github.com/Raviteja582/wandermate.git
