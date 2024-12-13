@@ -1,0 +1,25 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "inventory-management-flutter",
+          "appId": "1:321435976541:android:3d81b94ae59a5d31969eb4",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "inventory-management-flutter",
+          "configurations": {
+            "android": "1:321435976541:android:3d81b94ae59a5d31969eb4",
+            "ios": "1:321435976541:ios:16707d38049aeabf969eb4",
+            "macos": "1:321435976541:ios:16707d38049aeabf969eb4",
+            "web": "1:321435976541:web:3a9a10bb619950a5969eb4",
+            "windows": "1:321435976541:web:c032760072c5f0c4969eb4"
+          }
+        }
+      }
+    }
+  }
+}
