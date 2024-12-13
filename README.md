@@ -72,6 +72,12 @@ This project is built using Flutter. To get started with development, refer to t
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
+## Demo Presentation Video:
+- [https://www.youtube.com/watch?v=LAPozvex3rM](https://www.youtube.com/watch?v=LAPozvex3rM)
+
+## Powerpoint Presentation Link:
+- [https://studentgsu-my.sharepoint.com/:p:/r/personal/babdul3_student_gsu_edu/_layouts/15/Doc.aspx?sourcedoc=%7B35DDC8F6-A062-4B1E-913A-0DF06DD1A6FD%7D&file=MAD%20Assignment%202%20-%20Wandermate.pptx&action=edit&mobileredirect=true](https://studentgsu-my.sharepoint.com/:p:/r/personal/babdul3_student_gsu_edu/_layouts/15/Doc.aspx?sourcedoc=%7B35DDC8F6-A062-4B1E-913A-0DF06DD1A6FD%7D&file=MAD%20Assignment%202%20-%20Wandermate.pptx&action=edit&mobileredirect=true)
+
 ## Installation
 
 1. Clone this repository:
